@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.lista {
+	background-color: black;
+	color: white;
+
+	display: flex;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	justify-content: center;
+	text-decoration: none;
+	gap: 20px;
+	width: 100%;
+	height: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.slika {
+	display: flex;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	margin: auto;
+}
+.buttonS {
+	background-color: black;
+	color: white;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+p,
+h2,
+.buttonS {
+	justify-content: center;
+	display: flex;
+	margin-top: 10px;
+}
